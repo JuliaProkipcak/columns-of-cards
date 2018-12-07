@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -14,13 +14,19 @@ html {
   text-align: center;
 }
 
-.cards li {
+li.card {
   display: inline-block;
-  margin: 0 .5em 1em;
   max-width: 20em;
   padding: 1em;
   background-color: #fff;
-  border: 3px solid #e2e2e2;
-  border-radius: 10px;
+  border-right: 2px solid #333;
+  border-left: 2px solid #333;
   text-align: left;
+}
+
+img {
+  display: block;
+  max-width: 100px;
+  align-content: center;
+  margin: 0 auto 1rem;
 }
