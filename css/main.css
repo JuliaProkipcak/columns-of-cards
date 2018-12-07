@@ -16,7 +16,7 @@ html {
 
 li.card {
   display: inline-block;
-  max-width: 20em;
+  width: 20%;
   padding: 1em;
   background-color: #fff;
   border-right: 2px solid #333;
@@ -29,4 +29,8 @@ img {
   max-width: 100px;
   align-content: center;
   margin: 0 auto 1rem;
+}
+
+h1 {
+  display: flex;
 }
